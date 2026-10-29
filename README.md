@@ -18,7 +18,7 @@ I contributed by implementing Sythesis and Floorplan stage.
 # 1. Overview
 
  <p align="center">
-  <img src="https://github.com/rahulsaxena8/4-Bit-ALU/blob/Images/overview_circ_Schematic.png" width="800"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Overview-1.png" width="800"/>
   <br>
   <img src="https://github.com/rahulsaxena8/4-Bit-ALU/blob/Images/Full_Layout.png" width="800"/>
   <br>
