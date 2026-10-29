@@ -1,4 +1,4 @@
-# Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC-on-Synopsis-Fusion-Compiler
+# Physical Design Flow for ASIC based on Bitcoin-Miner
 
 1) Implemented physical design stages for an ASIC having architecture derived from Bitcoin mining chip.
 2) Implemented each stage by importing NDM libraries for the previous stage and running tcl scripts.
