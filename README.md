@@ -15,11 +15,14 @@ of -0.05 ns and -0.23 ns for the paths and proposed solutions to solve the viola
 
 I contributed by implementing Sythesis and Floorplan stage.
 
-<p align="center">
-  <img src="Introduction-1.png" alt="Project Screenshot" width="800"/>
-</p>
-<p align="center">
-  <img src="Introduction-2.png" alt="Project Screenshot" width="800"/>
+# 1. Overview
+
+ <p align="center">
+  <img src="https://github.com/rahulsaxena8/4-Bit-ALU/blob/Images/overview_circ_Schematic.png" width="800"/>
+  <br>
+  <img src="https://github.com/rahulsaxena8/4-Bit-ALU/blob/Images/Full_Layout.png" width="800"/>
+  <br>
+  <img src="https://github.com/rahulsaxena8/4-Bit-ALU/blob/Images/Full_Layout.png" width="800"/> 
 </p>
 
 
