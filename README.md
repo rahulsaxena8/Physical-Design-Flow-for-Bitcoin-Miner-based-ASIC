@@ -38,6 +38,11 @@ Screenshots of some of the synthesized blacks are as follows:
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Hash.png" width="800"/>
 </p>
 
+## Piso
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Piso.png" width="800"/>
+</p>
+
  
 
 
