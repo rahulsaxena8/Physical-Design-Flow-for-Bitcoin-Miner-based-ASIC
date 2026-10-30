@@ -28,7 +28,7 @@ I contributed by implementing Sythesis and Floorplan stage.
 </p>
 In this project, we will implement a simpler version of the Bitcoin case study designed by Synopsis while focusing on the backend side (physical design) and taking the frontend side (RTL implementation and verification) as given.
 
-# Stage 2: Synthesis
+# 2. Stage 1: Synthesis
 
  
 
