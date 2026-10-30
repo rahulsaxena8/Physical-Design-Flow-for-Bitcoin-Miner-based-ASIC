@@ -53,6 +53,30 @@ Fusion compiler performs physically aware synthesis, incorporating preliminary f
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/tcl_procedure.png" width="800"/>
 </p>
+
+## Hold Timing Report
+
+<p align="center">
+ <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/hold_timing_1.png" width="800"/>
+ <br>
+ <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/hold_timing_2.png" width="800"/>
+</p>
+
+Script for generating reports for 10 paths with maximum setup slack:
+
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/10_max_paths.png" width="800"/>
+</p>
+
+## Setup Timing Report
+
+<p align="center">
+ <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/setup_timing_1.png" width="800"/>
+ <br>
+ <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/setup_timing_2.png" width="800"/>
+</p>
+
+
  
 
 
