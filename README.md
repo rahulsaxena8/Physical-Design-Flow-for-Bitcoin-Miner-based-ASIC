@@ -115,6 +115,12 @@ Mapping the critical path on the layout and schematic:
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Critical_path_2.png" width="800"/>
 </p>
+
+Extracted power report:
+
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Power_report.png" width="800"/>
+</p>
  
 
 
