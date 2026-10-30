@@ -48,6 +48,11 @@ Screenshots of some of the synthesized blacks are as follows:
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Sipo_Slice.png" width="800"/>
 </p>
 
+Fusion compiler performs physically aware synthesis, incorporating preliminary floorplanning and placement which are further refined in subsequent physical design stages. The reports are generated using the following procedure: 
+
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/tcl_procedure.png" width="800"/>
+</p>
  
 
 
