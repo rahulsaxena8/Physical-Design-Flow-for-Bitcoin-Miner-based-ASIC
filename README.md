@@ -79,12 +79,12 @@ Script for generating reports for 10 paths with maximum setup slack:
 Mapping the critical path on layout and schematic:
 
 <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/timing_path_1.png" width="800"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/timing_path_1.png" width="500"/>
 </p>
 
  <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Layout_1.png" width="400"/>
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Schematic_1.png" width="400"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Layout_1.png" width="300"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Schematic_1.png" width="500"/>
 </p>
 
 <p align="center">
