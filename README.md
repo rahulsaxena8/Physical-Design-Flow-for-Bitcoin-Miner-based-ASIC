@@ -84,7 +84,7 @@ Mapping the critical path on layout and schematic:
 
  <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Layout_1.png" width="400"/>
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Layout_2.png" width="400"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Schematic_1.png" width="400"/>
 </p>
 
 <p align="center">
