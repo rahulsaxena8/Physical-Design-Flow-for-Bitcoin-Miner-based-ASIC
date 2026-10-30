@@ -90,6 +90,13 @@ Mapping the critical path on layout and schematic:
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Critical_path_1.png" width="800"/>
 </p>
+
+Identified the paths with this huge negative slack and declared them as false path:
+
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/False_path.png" width="500"/>
+</p>
+
  
 
 
