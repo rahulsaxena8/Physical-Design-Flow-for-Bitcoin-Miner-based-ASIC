@@ -97,6 +97,24 @@ Identified the paths with this huge negative slack and declared them as false pa
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/False_path.png" width="500"/>
 </p>
 
+The worst slack is reduced significantly.
+
+<p align="center">
+ <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/setup_timing_3.png" width="800"/>
+ <br>
+ <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/setup_timing_4.png" width="800"/>
+</p>
+
+Mapping the critical path on the layout and schematic:
+
+ <p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Layout_2.png" width="300"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Schematic_2.png" width="500"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Critical_path_2.png" width="800"/>
+</p>
  
 
 
