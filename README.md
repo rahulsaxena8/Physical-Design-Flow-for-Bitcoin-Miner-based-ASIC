@@ -26,6 +26,10 @@ I contributed by implementing Sythesis and Floorplan stage.
   <br>
   Taken from Chapter 2 of <i>Bitcoin: A Low Power case study by Synopsis, 2017.</i> 
 </p>
+In this project, we will implement a simpler version of the Bitcoin case study designed by Synopsis while focusing on the backend side (physical design) and taking the frontend side (RTL implementation and verification) as given.
+
+# Stage 2: Synthesis
+
  
 
 
