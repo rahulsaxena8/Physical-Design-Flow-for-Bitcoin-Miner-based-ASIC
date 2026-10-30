@@ -31,7 +31,7 @@ In this project, we will implement a simpler version of the Bitcoin case study d
 # 2. Stage 1: Synthesis
 TCL file <a href="bitcoin_stage_1.tcl">bitcoin_stage_1.v</a> was copied to the script editor and the commands were run line by line.
 The Verilog file is imported and the rtl is synthesized into functional blocks and standard cells.
-Screenshots of some of the synthesized blacks are as follows:
+Screenshots of some of the synthesized blocks are as follows:
 
 ## Hash
 <p align="center">
