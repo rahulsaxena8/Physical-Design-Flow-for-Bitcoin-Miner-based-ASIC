@@ -29,7 +29,7 @@ I contributed by implementing Sythesis and Floorplan stage.
 In this project, we will implement a simpler version of the Bitcoin case study designed by Synopsis while focusing on the backend side (physical design) and taking the frontend side (RTL implementation and verification) as given.
 
 # 2. Stage 1: Synthesis
-
+tcl file <a href="bitcoin_stage_1.tcl">bitcoin_stage_1.v</a> was copied to the script editor and the commands were run line by line.  
  
 
 
