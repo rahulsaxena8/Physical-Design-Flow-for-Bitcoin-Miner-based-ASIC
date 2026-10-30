@@ -33,6 +33,11 @@ TCL file <a href="bitcoin_stage_1.tcl">bitcoin_stage_1.v</a> was copied to the s
 The Verilog file is imported and the rtl is synthesized into functional blocks and standard cells.
 Screenshots of some of the synthesized blacks are as follows:
 
+## Hash
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Overview-1.png" width="800"/>
+</p>
+
  
 
 
