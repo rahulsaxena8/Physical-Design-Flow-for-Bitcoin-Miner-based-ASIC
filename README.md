@@ -35,7 +35,7 @@ Screenshots of some of the synthesized blacks are as follows:
 
 ## Hash
 <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Overview-1.png" width="800"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Hash" width="800"/>
 </p>
 
  
