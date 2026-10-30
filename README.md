@@ -121,6 +121,11 @@ Extracted power report:
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Power_report.png" width="800"/>
 </p>
+
+Total Dynamic power = 0.132 W.
+Total Static power = Leakage Power = 0.110 W.
+Total Power = 0.132 + 0.110 = 0.242 W.
+
  
 
 
