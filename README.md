@@ -23,7 +23,9 @@ I contributed by implementing Sythesis and Floorplan stage.
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Overview-2.png" width="800"/>
   <br>
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Overview-3.png" width="800"/> 
+  <br>
+  <i>Taken from Chapter 2 of "Bitcoin: A Low Power case study by Synopsis, 2017".</i> 
 </p>
-
+ 
 
 
