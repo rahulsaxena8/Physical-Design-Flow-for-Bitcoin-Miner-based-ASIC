@@ -136,6 +136,88 @@ Following is an example timing graph:
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/STA/timing_graph.png" width="800"/>
 </p>
 
+Attached is the tcl script: 
+
+``` tcl
+# Procedure to calculate the AT values for each node in a graph
+# adjMat - adjacency matrix of the graph
+# wMat - weight matrix of the graph
+# nodes - list of nodes in the graph, each node represented as a list [id AT RAT SLACK]
+proc calcAT {adjMat wMat nodes} {
+    set loopCnt [llength $adjMat]
+    for {set curNode 0} {$curNode < $loopCnt} {incr curNode} {
+        for {set nextNode [expr $curNode+1]} {$nextNode < $loopCnt} {incr nextNode} {
+            if {[lindex $adjMat $curNode $nextNode]} {
+                set curAT [lindex $nodes $curNode 1]
+                set weight [lindex $wMat $curNode $nextNode]
+                set nextAT [lindex $nodes $nextNode 1]
+                #puts "current: $curNode, next: $nextNode, weight: $weight, currentAT: $curAT"
+                if {[expr $curAT + $weight] > [expr $nextAT]} {
+                    lset nodes $nextNode 1 [expr {$curAT + $weight}]
+                }
+                
+            }
+        }
+    }
+    #puts "calcAT: $nodes\n"
+    return $nodes
+}
+
+# Procedure to calculate the RAT values for each node in a graph
+# adjMat - adjacency matrix of the graph
+# wMat - weight matrix of the graph
+# nodes - list of nodes in the graph, each node represented as a list [id AT RAT SLACK]
+proc calcRAT {adjMat wMat nodes} {
+    set loopCnt [expr [llength $adjMat] - 1]
+    for {set curNode $loopCnt} {$curNode > 0} {incr curNode -1} {
+        set curRAT [lindex $nodes $curNode 2]
+        for {set prevNode [expr $curNode-1]} {$prevNode >= 0} {incr prevNode -1} {
+            if {[lindex $adjMat $prevNode $curNode]} {
+                set prevRAT [lindex $nodes $prevNode 2]
+                set weight [lindex $wMat $prevNode $curNode]
+                if {[expr {$curRAT - $weight}] < [expr $prevRAT]} {
+                    lset nodes $prevNode 2 [expr {$curRAT - $weight}]
+                }
+            }
+        }
+    }
+    #puts "calcRAT: $nodes"
+    return $nodes
+}
+
+# Procedure to calculate the SLACK values for each node in a graph
+# adjMat - adjacency matrix of the graph
+# wMat - weight matrix of the graph
+# nodes - list of nodes in the graph, each node represented as a list [id AT RAT SLACK]
+proc calcSlack {adjMat wMat nodes T} {
+
+    # Calculate the AT and RAT values for all nodes
+    for {set i 0} {$i < [expr {[llength $nodes]}]} {incr i} {
+        lset nodes $i 2 $T
+    }
+    set nodes [calcAT $adjMat $wMat $nodes]
+    set nodes [calcRAT $adjMat $wMat $nodes]
+
+    # Calculate the slack for each node and report if the slack is negative
+    foreach node $nodes {
+        set nodeid [lindex $node 0]
+        set nodeRAT [lindex $node 2]
+        set nodeAT [lindex $node 1]
+        set slack [expr {$nodeRAT - $nodeAT}]
+        lset nodes $nodeid 3 $slack
+        if { $slack < 0} {
+            puts "Node $node has negative slack: $slack"
+        }
+    }
+
+    # Return the updated list of nodes with slack values
+    return $nodes
+}
+
+set result [calcSlack $adjacencyMatrix $weightsMatrix $nodesList 12]
+```
+
+
 
 
  
