@@ -321,7 +321,10 @@ This method is widely used in the designs having secondary hierarchy, such as th
 
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/hierarchial_floorplan.png" width="800"/>
+ <br>
+ Bitcoin Floorplan
 </p>
+
 
 
 
