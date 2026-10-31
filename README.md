@@ -315,7 +315,13 @@ The corresponding layout with congestion map is as follows:
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/custom_floorplan.png" width="800"/>
 </p>
 
+## Option 4: Divide and Conquer
 
+This method is widely used in the designs having secondary hierarchy, such as the bit_coin. The bit_coin module is made up of 16 bit_top modules. Thus, only one bit_top module needs to be designed error free and then it can be copied and abutted to form most of the ASIC. This method saves a lot of labour and increases the accuracy substancially.
+
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/hierarchial_floorplan.png" width="800"/>
+</p>
 
 
 
