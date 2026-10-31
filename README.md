@@ -128,6 +128,16 @@ Total Static power = Leakage Power = 0.110 W.
 
 Total Power = 0.132 + 0.110 = 0.242 W.
 
+# 3. Stage 2: STA
+
+Following is an example timing graph:
+
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/STA/timing_graph.png" width="800"/>
+</p>
+
+
+
  
 
 
