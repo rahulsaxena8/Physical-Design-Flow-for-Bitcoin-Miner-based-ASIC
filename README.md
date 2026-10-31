@@ -349,6 +349,26 @@ This method is widely used in the designs having secondary hierarchy, such as th
 
 # 6. Stage 5: Clock Tree Synthesis
 
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/CTS/lclk_tree.png" width="800"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/CTS/hclk_tree.png" width="800"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/CTS/skew.png" width="800"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/CTS/lclk_graph.png" width="800"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/CTS/hclk_graph.png" width="800"/>
+</p>
+
 # 7. Stage 6: Routing
 
 
