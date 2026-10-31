@@ -303,6 +303,18 @@ Similar to the previous option, SRAMs are organized in matrix shape but the spac
 
 The layout was analyzed for various permutations of input arguments as shown in the screenshots:
 
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/create_macro_array.png" width="800"/>
+</p>
+
+The input argument finally chosen to implement this option is ``` 3 3 3 20 20 20 20 20 20 ``` 
+
+The corresponding layout with congestion map is as follows:
+
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/custom_floorplan.png" width="800"/>
+</p>
+
 
 
 
