@@ -268,6 +268,28 @@ nodesList = { {0 0 -3 -3} {1 0 -3 -3} {2 0 -1 -1} {3 0 2 2} {4 4 10 6} {5 6 3 -3
 
 ## Option 1: Automatic Floorplan
 
+First option is automatic floorplanning. Following command sets the constraints of the floorplan:
+
+``` tcl
+set_auto_floorplan_constraints -core_utilization 0.5 -side_ratio {1 2}
+```
+=> Core utilization is 50 % and the aspect ratio is 1:2. 
+
+This results in the following floorplan:
+
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/auto_floorplan.png" width="800"/>
+</p>
+
+Shown is the closeup of the layout:
+
+ <p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/auto_floorplan_zoom1.png" width="300"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/auto_floorplan_zoom2.png" width="500"/>
+</p>
+
+
+
 
 
 
