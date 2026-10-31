@@ -298,6 +298,11 @@ The SRAMs are organized in the shape of a matrix with fixed spaces between them:
 
 ## Option 3: Organizing the SRAMs into a matrix shape (unfixed spaces)
 
+Similar to the previous option, SRAMs are organized in matrix shape but the space between the cells is customizable through the following function:
+```tcl create_macro_arrays ```
+
+The layout was analyzed for various permutations of input arguments as shown in the screenshots:
+
 
 
 
