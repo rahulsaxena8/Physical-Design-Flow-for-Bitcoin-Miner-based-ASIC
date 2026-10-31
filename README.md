@@ -216,6 +216,53 @@ proc calcSlack {adjMat wMat nodes T} {
 
 set result [calcSlack $adjacencyMatrix $weightsMatrix $nodesList 12]
 ```
+Sample inputs:
+
+``` tcl
+set adjacencyMatrix {      {0 1 1 1 0 0 0 0 0 0 0}
+                           {0 0 0 0 1 1 0 0 0 0 0}
+                           {0 0 0 0 0 1 0 0 0 0 0}
+                           {0 0 0 0 0 1 1 0 0 0 0}
+                           {0 0 0 0 0 0 0 1 0 0 0}
+                           {0 0 0 0 0 0 0 1 1 1 0}
+                           {0 0 0 0 0 0 0 0 1 1 0}
+                           {0 0 0 0 0 0 0 0 0 0 1}
+                           {0 0 0 0 0 0 0 0 0 0 1}
+                           {0 0 0 0 0 0 0 0 0 0 1}
+                           {0 0 0 0 0 0 0 0 0 0 0} }
+
+set weightsMatrix 	{  {0 0 0 0 0 0 0 0 0 0 0}
+                           {0 0 0 0 4 6 0 0 0 0 0}
+                           {0 0 0 0 0 4 0 0 0 0 0}
+                           {0 0 0 0 0 1 2 0 0 0 0}
+                           {0 0 0 0 0 0 0 2 0 0 0}
+                           {0 0 0 0 0 0 0 1 6 9 0}
+                           {0 0 0 0 0 0 0 0 5 8 0}
+                           {0 0 0 0 0 0 0 0 0 0 0}
+                           {0 0 0 0 0 0 0 0 0 0 0}
+                           {0 0 0 0 0 0 0 0 0 0 0}
+                           {0 0 0 0 0 0 0 0 0 0 0} }
+
+set nodesList 		{ {0 0 0 0} {1 0 0 0} {2 0 0 0} {3 0 0 0} {4 0 0 0} {5 0 0 0} 
+                      {6 0 0 0} {7 0 0 0} {8 0 0 0} {9 0 0 0} {10 0 0 0} }
+
+set result [calcSlack $adjacencyMatrix $weightsMatrix $nodesList 12]
+
+```
+
+Corresponding outputs:
+
+``` tcl
+Node 0 has negative slack: -3
+Node 1 has negative slack: -3
+Node 2 has negative slack: -1
+Node 5 has negative slack: -3
+Node 9 has negative slack: -3
+Node 10 has negative slack: -3
+
+nodesList = { {0 0 -3 -3} {1 0 -3 -3} {2 0 -1 -1} {3 0 2 2} {4 4 10 6} {5 6 3 -3} 
+                      {6 2 4 2} {7 7 12 5} {8 12 12 0} {9 15 12 -3} {10 15 12 -3} }
+```
 
 
 
