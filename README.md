@@ -123,7 +123,9 @@ Extracted power report:
 </p>
 
 Total Dynamic power = 0.132 W.
+
 Total Static power = Leakage Power = 0.110 W.
+
 Total Power = 0.132 + 0.110 = 0.242 W.
 
  
