@@ -281,12 +281,24 @@ This results in the following floorplan:
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/auto_floorplan.png" width="800"/>
 </p>
 
-Shown is the closeup of the layout:
+Closeup of the layout:
 
  <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/auto_floorplan_zoom1.png" width="400"/>
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/auto_floorplan_zoom2.png" width="400"/>
 </p>
+
+## Option 2: Organizing the SRAMs into a matrix shape (fixed spaces)
+
+The SRAMs are organized in the shape of a matrix with fixed spaces between them:
+
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/matrix_floorplan.png" width="800"/>
+</p>
+
+## Option 3: Organizing the SRAMs into a matrix shape (unfixed spaces)
+
+
 
 
 
