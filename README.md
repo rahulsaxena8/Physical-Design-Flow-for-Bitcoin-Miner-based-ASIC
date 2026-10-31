@@ -333,6 +333,7 @@ This method is widely used in the designs having secondary hierarchy, such as th
 
  <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Placement/layout_1.png" width="400"/>
+  <br>
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Placement/schematic_1.png" width="400"/>
 </p>
 
