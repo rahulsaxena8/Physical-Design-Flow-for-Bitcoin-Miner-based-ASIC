@@ -371,6 +371,10 @@ This method is widely used in the designs having secondary hierarchy, such as th
 
 # 7. Stage 6: Routing
 
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Routing/Routing_report.png" width="800"/>
+</p>
+
 
 
 
