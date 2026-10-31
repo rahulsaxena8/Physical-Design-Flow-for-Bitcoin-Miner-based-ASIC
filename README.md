@@ -18,11 +18,11 @@ I contributed by implementing Sythesis and Floorplan stage.
 # 1. Overview
 
  <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Overview-1.png" width="800"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/Overview-1.png" width="800"/>
   <br>
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Overview-2.png" width="800"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/Overview-2.png" width="800"/>
   <br>
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Overview-3.png" width="800"/> 
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/Overview-3.png" width="800"/> 
   <br>
   Taken from Chapter 2 of <i>Bitcoin: A Low Power case study by Synopsis, 2017.</i> 
 </p>
@@ -35,91 +35,91 @@ Screenshots of some of the synthesized blocks are as follows:
 
 ## Hash
 <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Hash.png" width="800"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/Hash.png" width="800"/>
 </p>
 
 ## Piso
 <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Piso.png" width="800"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/Piso.png" width="800"/>
 </p>
 
 ## Sipo_Slice
 <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Sipo_Slice.png" width="800"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/Sipo_Slice.png" width="800"/>
 </p>
 
 Fusion compiler performs physically aware synthesis, incorporating preliminary floorplanning and placement which are further refined in subsequent physical design stages. The reports are generated using the following procedure: 
 
 <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/tcl_procedure.png" width="800"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/tcl_procedure.png" width="800"/>
 </p>
 
 ## Hold Timing Report
 
 <p align="center">
- <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/hold_timing_1.png" width="800"/>
+ <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/hold_timing_1.png" width="800"/>
  <br>
- <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/hold_timing_2.png" width="800"/>
+ <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/hold_timing_2.png" width="800"/>
 </p>
 
 Script for generating reports for 10 paths with maximum setup slack:
 
 <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/10_max_paths.png" width="800"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/10_max_paths.png" width="800"/>
 </p>
 
 ## Setup Timing Report
 
 <p align="center">
- <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/setup_timing_1.png" width="800"/>
+ <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/setup_timing_1.png" width="800"/>
  <br>
- <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/setup_timing_2.png" width="800"/>
+ <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/setup_timing_2.png" width="800"/>
 </p>
 
 Mapping the critical path on layout and schematic:
 
 <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/timing_path_1.png" width="500"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/timing_path_1.png" width="500"/>
 </p>
 
  <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Layout_1.png" width="300"/>
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Schematic_1.png" width="500"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/Layout_1.png" width="300"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/Schematic_1.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Critical_path_1.png" width="800"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/Critical_path_1.png" width="800"/>
 </p>
 
 Identified the paths with this huge negative slack and declared them as false path:
 
 <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/False_path.png" width="500"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/False_path.png" width="500"/>
 </p>
 
 The worst slack is reduced significantly.
 
 <p align="center">
- <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/setup_timing_3.png" width="800"/>
+ <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/setup_timing_3.png" width="800"/>
  <br>
- <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/setup_timing_4.png" width="800"/>
+ <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/setup_timing_4.png" width="800"/>
 </p>
 
 Mapping the critical path on the layout and schematic:
 
  <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Layout_2.png" width="300"/>
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Schematic_2.png" width="500"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/Layout_2.png" width="300"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/Schematic_2.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Critical_path_2.png" width="800"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/Critical_path_2.png" width="800"/>
 </p>
 
 Extracted power report:
 
 <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Images/Power_report.png" width="800"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/Power_report.png" width="800"/>
 </p>
 
 Total Dynamic power = 0.132 W.
