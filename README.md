@@ -332,9 +332,19 @@ This method is widely used in the designs having secondary hierarchy, such as th
 </p>
 
  <p align="center">
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Placement/layout_1.png" width="400"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Placement/layout_1.png" width="600"/>
   <br>
-  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Placement/schematic_1.png" width="400"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Placement/schematic_1.png" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Placement/timing_report_2.png" width="800"/>
+</p>
+
+ <p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Placement/layout_2.png" width="600"/>
+  <br>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Placement/schematic_2.png" width="600"/>
 </p>
 
 # 6. Stage 5: Clock Tree Synthesis
