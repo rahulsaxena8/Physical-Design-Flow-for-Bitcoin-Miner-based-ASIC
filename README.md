@@ -54,6 +54,8 @@ Fusion compiler performs physically aware synthesis, incorporating preliminary f
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/tcl_procedure.png" width="800"/>
 </p>
 
+
+
 ## Hold Timing Report
 
 <p align="center">
