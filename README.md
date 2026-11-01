@@ -324,6 +324,17 @@ The layout was analyzed for various permutations of input arguments as shown in 
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/create_macro_array.png" width="800"/>
 </p>
 
+Layouts for some of the inputs are shown below:
+
+ <p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/444444444.png" width="300"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/2 2 2 2 2 2 2 2 2.png" width="300"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/222222222.png" width="200"/>
+  <br>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/8 4 2 10 20 32 4 50 50.png" width="400"/>
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/333333333.png" width="400"/>
+</p>
+
 The input argument finally chosen to implement this option is ``` 3 3 3 20 20 20 20 20 20 ``` 
 
 The corresponding layout with congestion map is as follows:
