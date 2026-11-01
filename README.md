@@ -394,13 +394,28 @@ The timing reports were extracted and two problamatic paths were identified.
 
 # 6. Stage 5: Clock Tree Synthesis
 
+After running the tcl script for the stage, the implemented clock trees were exported using the gui as shown below:
+
+
+The design contains two clocks named, lclk and hclk. The following snapshots display the clock distributions in the layout. The color scheme represents the levels of the clock tree.
+
+## lclk
+
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/CTS/lclk_tree.png" width="800"/>
 </p>
 
+The lclk has 13 levels in total.
+
+## hclk
+
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/CTS/hclk_tree.png" width="800"/>
 </p>
+
+The hclk has a total of 11 levels.
+
+The global skew for hclk and lclk is shown in the following report: 
 
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/CTS/skew.png" width="800"/>
