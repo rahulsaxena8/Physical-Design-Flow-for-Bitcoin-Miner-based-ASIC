@@ -138,13 +138,17 @@ Total Power = 0.132 + 0.110 = 0.242 W.
 
 # 3. Stage 2: STA
 
+In this stage, we implement a simplified AT/RAT algorithm using tcl.
+
 Following is an example timing graph:
 
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/STA/timing_graph.png" width="800"/>
 </p>
 
-Attached is the tcl script: 
+The weights on the edges between the nodes represent the gate delays. A set of 3 integers is assigned to every node, representing arrival time, required arrival time, and slack for each node.
+
+Attached is the tcl script used for calculating these values: 
 
 ``` tcl
 # Procedure to calculate the AT values for each node in a graph
@@ -257,6 +261,7 @@ set nodesList 		{ {0 0 0 0} {1 0 0 0} {2 0 0 0} {3 0 0 0} {4 0 0 0} {5 0 0 0}
 set result [calcSlack $adjacencyMatrix $weightsMatrix $nodesList 12]
 
 ```
+The adjacency matrix describes the connections between the nodes, the weights matrix describes the propagation delay between the connected nodes. The RAT at the sinc node in this case is 12 units.
 
 Corresponding outputs:
 
@@ -283,7 +288,7 @@ set_auto_floorplan_constraints -core_utilization 0.5 -side_ratio {1 2}
 ```
 => Core utilization is 50 % and the aspect ratio is 1:2. 
 
-This results in the following floorplan:
+The resultant floorplan and the congestion map is shown below:
 
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/auto_floorplan.png" width="800"/>
@@ -303,6 +308,8 @@ The SRAMs are organized in the shape of a matrix with fixed spaces between them:
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Floorplan/matrix_floorplan.png" width="800"/>
 </p>
+
+The congestion improves significantly.
 
 ## Option 3: Organizing the SRAMs into a matrix shape (unfixed spaces)
 
