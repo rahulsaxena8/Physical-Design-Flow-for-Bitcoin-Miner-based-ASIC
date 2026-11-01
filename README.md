@@ -77,10 +77,18 @@ Script for generating reports for 10 paths with maximum setup slack:
 </p>
 
 Mapping the critical path on layout and schematic:
-
+<!--
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/timing_path_1.png" width="500"/>
 </p>
+-->
+tcl command:
+
+``` tcl
+set tp1 [get_timing_paths -from bit_secure_2/lreset_sync/reset_sync_reg/CLK -to bit_secure_2/slice_9/sipo_bit/rd_addr_reg[1]/SETB]
+
+change_selection [get_timing_paths $tp1]
+```
 
  <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Synthesis/Layout_1.png" width="300"/>
