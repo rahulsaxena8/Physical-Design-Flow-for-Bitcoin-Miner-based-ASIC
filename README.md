@@ -446,9 +446,20 @@ The levelized graphs for lclk and hclk:
 
 # 7. Stage 6: Routing
 
+A snapshot of the design at the end of last stage is imported and tcl script is executed.
+
+The routing stage requires a lot of work when it comes to CPU calculations. Therefore, 4 cores were assigned to us for this stage. This is done by running the command:```set_host_options -max_cores 4``` 
+
+Report after completion of the stage:
+
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Routing/Routing_report.png" width="800"/>
 </p>
+
+The routing iterations end with:
+
+Number of shorts = 20.
+Number of opens = 2.
 
 
 
