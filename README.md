@@ -421,9 +421,19 @@ The global skew for hclk and lclk is shown in the following report:
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/CTS/skew.png" width="800"/>
 </p>
 
+The levelized graphs for lclk and hclk:
+
+<p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/CTS/levelized_graph.png" width="800"/>
+</p>
+
+## lclk
+
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/CTS/lclk_graph.png" width="800"/>
 </p>
+
+## hclk 
 
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/CTS/hclk_graph.png" width="800"/>
