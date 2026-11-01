@@ -396,6 +396,11 @@ The timing reports were extracted and two problamatic paths were identified.
 
 After running the tcl script for the stage, the implemented clock trees were exported using the gui as shown below:
 
+ <p align="center">
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/CTS/search.png" width="400"/>
+  
+  <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/CTS/apply.png" width="400"/>
+</p>
 
 The design contains two clocks named, lclk and hclk. The following snapshots display the clock distributions in the layout. The color scheme represents the levels of the clock tree.
 
