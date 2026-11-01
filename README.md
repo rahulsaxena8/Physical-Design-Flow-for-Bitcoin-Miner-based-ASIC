@@ -355,9 +355,21 @@ This method is widely used in the designs having secondary hierarchy, such as th
 
 # 5. Stage 4: Placement
 
+Just as in the previous stages, the NDM lib was copied from the TA's directory, and the commands in the attached tcl script for placement was executed.
+
+After completing the placement, another script containing commands for STA analysis was executed. 
+
+The timing reports were extracted and two problamatic paths were identified.
+
+## Path 1
+
+### Timing Report
+
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Placement/timing_report_1.png" width="800"/>
 </p>
+
+### Layout and Schematic
 
  <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Placement/layout_1.png" width="600"/>
@@ -365,10 +377,15 @@ This method is widely used in the designs having secondary hierarchy, such as th
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Placement/schematic_1.png" width="600"/>
 </p>
 
+## Path 2
+
+### Timing Report
+
 <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Placement/timing_report_2.png" width="800"/>
 </p>
 
+### Layout and Schematic
  <p align="center">
   <img src="https://github.com/rahulsaxena8/Physical-Design-Flow-for-Bitcoin-Miner-based-ASIC/blob/Placement/layout_2.png" width="600"/>
   <br>
