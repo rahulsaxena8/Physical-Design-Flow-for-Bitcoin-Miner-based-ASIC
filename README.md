@@ -11,7 +11,7 @@ total number of overflows in all the metal layers.
 of -0.05 ns and -0.23 ns for the paths and proposed solutions to solve the violations.
 6) Generated clock tree distributions over the layout. lclk network is made up of 11 levels and has global skew of
 0.33 ns, while the hclk has 13 levels and a global skew of 0.25 ns. Both the clocks operate at a frequency of 1 GHz.
-7) After the routing stage, number of shorts = 20 and number of opens = 2.
+7) Implemented the routing stage with the violation checks limited to a maximum of 20 violations.
 
 I contributed by implementing Sythesis and Floorplan stage.
 
