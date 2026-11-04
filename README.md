@@ -460,9 +460,11 @@ Report after completion of the stage:
 
 The routing iterations end with:
 
-Number of shorts = 20.
+Minimum number of shorts = 20.
 
 Number of opens = 2.
+
+Minimum number of floating nets = 20.
 
 
 
